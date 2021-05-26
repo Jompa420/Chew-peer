@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-family: "Merriweather", serif;
+}
+.nav {
+  grid-row: 1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: rgb(181, 209, 209);
+  text-align: center;
+  padding: 1rem;
+}
+
+.produkt {
+  border-radius: 1rem;
+  width: 25rem;
+  padding: 1rem;
+  margin: auto;
+}
+
+.ez {
+  margin: 1rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 1rem;
+  position: relative;
+}
+
+#tbx {
+  text-decoration: none;
+  color: black;
+  background-color: cadetblue;
+  padding: 0.3rem;
+  border-radius: 1rem;
+}
+
+#tbx:hover {
+  cursor: pointer;
+  transition-duration: 200ms;
+  background-color: rgb(155, 184, 185);
+}

@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-family: "Merriweather", serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 25% 75%;
+  background-color: rgb(181, 209, 209);
+  height: 12vh;
+}
+#meny {
+  display: flex;
+  grid-column: 2;
+  grid-row: 2;
+  justify-content: space-around;
+  font-size: 1rem;
+}
+
+h3 {
+  padding-top: 5%;
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.jaw {
+  margin-left: 1rem;
+}
+
+#om-title {
+  padding: 2rem;
+}
+
+#B1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 2rem;
+}
+
+#img {
+  float: right;
+  padding-right: 3rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transition-duration: 200ms;
+  background-color: rgb(219, 248, 248);
+  height: 2rem;
+  padding: 0.4rem;
+  border-radius: 1rem;
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  margin: auto;
+
+  background-color: rgb(181, 209, 209);
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  width: 100%;
+  font-size: 0.7rem;
+  bottom: 0;
+}
+
+.info,
+h5,
+.GodaV {
+  margin: 2rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+iframe {
+  padding-top: 2rem;
+}
